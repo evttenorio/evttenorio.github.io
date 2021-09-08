@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>evttenorio</title>
+    <meta name="theme-color" content="#232728">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='css/style.css'/>
+    <!-- Scripts -->
+    <script>
+      function newPopup1(){
+      	varWindow = window.open (
+      		'https://blog.evttenorio.com',
+      		'pagina',
+      		'width=620, height=540, top=150, left=110, scrollbars=yes');
+      }
+    </script>
+    <script>
+      function newPopup2(){
+      	varWindow = window.open (
+      		'ifal-si/index.html',
+      		'pagina',
+      		'width=620, height=540, top=150, left=110, scrollbars=yes');
+      }
+    </script>
+    <script>
+      function newPopup3(){
+      	varWindow = window.open (
+      		'about.html',
+      		'pagina',
+      		'width=540, height=600, top=100, left=300, titlebar=no, scrollbars=0');
+      }
+    </script>
+    <script>
+      function newPopup4(){
+      	varWindow = window.open (
+      		'https://www.evttenorio.com/lab/',
+      		'pagina',
+      		'width=540, height=600, top=100, left=300, titlebar=no, scrollbars=0');
+      }
+    </script>
+    <script src='./scripts/clock.js'></script>
+    <script>StartClock('d/m/Y','H:i:s');</script>
+    <script>
+      function contact(){
+      	alert('\nLinkedin: evttenorio');
+      }
+    </script>
+    <!-- Meta og -->
+    <meta property="og:title" content="Evttenorio" />
+    <meta property="og:description" content="My tech website. " />
+    <meta property="og:image" content="images/favicon/evttenoriofb.png"/>
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon/faveton16.png" sizes="16x16">
+    <link rel="icon" href="images/favicon/faveton32.png" sizes="32x32">
+    <link rel="icon" href="images/favicon/faveton48.png" sizes="48x48">
+    <link rel="icon" href="images/favicon/faveton64.png" sizes="64x64">
+    <link rel="icon" href="images/favicon/faveton128.png" sizes="128x128">
+    <!--[if IE]>
+    <link rel="shortcut icon" href="images/favicon/faveton128.ico">
+    <![endif]-->
+    <!--<link rel="icon" href="images/favicon/faveton128.png">-->
+  </head>
+  <body>
+    <div id='interface'>
+      <div id="menu">
+        <ul id="folders">
+          <li>
+            <a href="javascript:newPopup3()"><img src="images/about.png" alt=""></a>
+            <p>About</p>
+          </li>
+          <li>
+            <a href="javascript:newPopup4()"><img src="images/folder.png" alt=""></a> 
+            <p>Projetos</p>
+          </li>
+          <li>
+            <img src="images/contact.png" alt="" onclick="contact()"> 
+            <p>Contact</p>
+          </li>
+          <!--<li>
+           <li>
+            <a href="cs.html"><img src="images/cs.ico" alt=""></a>
+            <p>Counter-Strike</p>
+          </li>-->
+          <li>
+            <a href="javascript:newPopup1()"><img src="images/ie.png" alt=""></a>
+            <p style="padding: 0 0 12px">Blog</p>
+          </li>
+          <!--<li>
+            <a href="javascript:newPopup2()"><img src="images/ie.png" alt=""></a>
+            <p>IFAL-SI</p>
+          </li>-->
+          <li>
+            <a href="./editon"> <img src="images/editon.png" alt=""></a> 
+            <p>Editon</p>
+          </li>
+        </ul>
+      </div>
+      <!-- End Menu -->
+      <div id="bar">
+        <img src="images/win95s.gif" alt="" height="30" width="70">
+        <span id='clock_tm'></span><span id='clock_dt' ></span>
+      </div>
+      <!-- End bar -->
+    </div>
+    <!-- End Interface -->
+  </body>
+</html>
