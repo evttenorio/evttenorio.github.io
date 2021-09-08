@@ -1,0 +1,64 @@
+html{
+    background-color: #008080;
+}
+
+div#interface {
+    text-align: center;
+    background-color: #008080;
+    font-family: "MS Sans Serif", sans-serif;
+    font-size: 14px;
+    color: white;
+    width: 100%;   
+    line-height: 1.6;
+}
+
+div#menu{
+    margin-left: -30px;  
+    position: absolute;  
+}
+div#menu li{   
+    padding: 0px 0px 9px; 
+}
+
+ul{
+list-style-type: none;
+}
+
+div#bar{
+    background-color: #c1c1c1;
+    color: black; 
+    border: 1px solid black;
+    width: 100%;
+    margin: -8px; 
+    text-align: left;
+    padding-bottom: 0px;
+    position: fixed; 
+    bottom: 0; 
+}
+
+div#bar span{
+    float: right;
+    margin-left: -100px;
+}
+
+span#clock_tm{
+    top: 0;
+    font-size: 11px;
+    margin-right: 18px;
+    
+}
+
+span#clock_dt{
+    bottom: 0;
+    font-size: 11px;
+    margin: 10px; 
+    padding: 1px;
+}
+
+p {
+    display: block;
+    margin-block-start: -0.2em;
+    margin-block-end: 1.4em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
