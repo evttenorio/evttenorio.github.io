@@ -1,4 +1,3 @@
-//
 // Utilitario Data/Hora
 // Desenvolvido por: Elsaby Antunes email: elsabyantunes@gmail.com
 // Script que mostra Data e Hora do Computador Local no seu Web Site.
